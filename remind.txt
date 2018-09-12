@@ -1,1 +1,1 @@
-vue commonpents
+vue components
