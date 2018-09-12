@@ -1,0 +1,72 @@
+
+@import "~bootstrap/less/normalize.less";
+html, body {
+  height: 100%;
+  min-height: 100%;
+  min-width: 1200px;
+  font-family: "Microsoft YaHei",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+.content-box{
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #333;
+}
+// 这里修改时间选择器样式问题的bug
+.el-time-spinner.has-seconds .el-time-spinner__wrapper:nth-child(2){
+  margin-left: 0;
+}
+// element ui bug
+.el-collapse-item__arrow[class*=" el-icon-"]{
+  line-height: 48px;
+}
+.table-form{
+  .el-form-item{
+    margin-bottom: 0;
+    .el-form-item__label, .el-form-item__content{
+      line-height: 2rem;
+    }
+  }
+}
+// 查询过滤表单
+.query-form{
+  background: #f6f6f6;
+  padding: 1.8rem 1rem 0;
+  margin-bottom: 2rem;
+  .search-btn{
+    width: 10rem;
+  }
+}
+.updateForm{
+
+  .btn-form{
+    width: 15rem;
+  }
+}
+.sub-nav{
+  float: right;
+  margin-top: -36px;
+}
+.anchorBL{display:none;}
+.el-pagination{
+  text-align: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+.el-notification.warningNotify{
+  left: calc(~"50% - 165px");
+  background: #ce3232;
+  border-color: transparent;
+  .el-notification__title, .el-notification__content{
+    color: #fff;
+  }
+  .el-notification__icon, .el-notification__closeBtn{
+    color: #fff;
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "manual_upgrade": {
+    "1": {
+      "name": "手动升级",
+      "value": "1"
+    },
+    "2": {
+      "name": "静默升级",
+      "value": "2"
+    }
+  },
+  "ota_type": {
+    "WiFi": {
+      "name": "WiFi",
+      "value": "WiFi"
+    },
+    "MCU": {
+      "name": "MCU",
+      "value": "MCU"
+    }
+  },
+  "ota_state": {
+    "0": {
+      "name": "未验证",
+      "value": "0",
+      "type": "danger"
+    },
+    "1": {
+      "name": "已验证",
+      "value": "1",
+      "type": "primary"
+    },
+    "2": {
+      "name": "正在推送",
+      "value": "2",
+      "type": "success"
+    },
+    "3": {
+      "name": "停止推送",
+      "value": "3",
+      "type": "info"
+    },
+    "4": {
+      "name": "历史推送",
+      "value": "4",
+      "type": "info"
+    }
+  }
+}
